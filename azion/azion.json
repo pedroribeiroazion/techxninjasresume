@@ -1,0 +1,63 @@
+{
+  "name": "techxninjasresume",
+  "bucket": "techxninjasresume",
+  "preset": "astro",
+  "env": "production",
+  "prefix": "20241023163640",
+  "not-first-run": true,
+  "function": {
+    "id": 31006,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29697,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1729701507,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1729700242,
+    "name": "techxninjasresume",
+    "domain_name": "uylxzl50hk.map.azionedge.net",
+    "url": "https://uylxzl50hk.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 159544,
+      "origin-key": "9adea7db-b8b9-4b32-9a44-eecc3c2297c3",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 310235,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 310236,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 310237,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 310238,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
